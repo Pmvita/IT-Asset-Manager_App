@@ -17,7 +17,7 @@ This is a Django-based IT Asset Management System that allows users to track IT 
   <img src="./screenshots/screenshot2.png" alt="Screenshot 2" width="50%">
 </div>
 
-<div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;" >
+<div style="display: flex; gap: 10px; margin-top: 10px;" >
   <img src="./screenshots/screenshot3.png" alt="Screenshot 3" width="50%">
   <img src="./screenshots/screenshot4.png" alt="Screenshot 4" width="50%">
 </div>
