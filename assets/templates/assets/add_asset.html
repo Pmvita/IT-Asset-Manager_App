@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load form_tags %}
+
+{% block title %}Add IT Asset{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Add New IT Asset</h1>
+<form method="post">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="{{ form.name.id_for_label }}" class="form-label">{{ form.name.label }}</label>
+        {{ form.name|add_class:"form-control" }}
+    </div>
+    <div class="form-group">
+        <label for="{{ form.serial_number.id_for_label }}" class="form-label">{{ form.serial_number.label }}</label>
+        {{ form.serial_number|add_class:"form-control" }}
+    </div>
+    <div class="form-group">
+        <label for="{{ form.purchase_date.id_for_label }}" class="form-label">{{ form.purchase_date.label }}</label>
+        {{ form.purchase_date|add_class:"form-control" }}
+    </div>
+    <div class="form-group">
+        <label for="{{ form.warranty_expiration.id_for_label }}" class="form-label">{{ form.warranty_expiration.label }}</label>
+        {{ form.warranty_expiration|add_class:"form-control" }}
+    </div>
+    <button type="submit" class="btn btn-success">Add Asset</button>
+    <a href="{% url 'asset_list' %}" class="btn btn-secondary">Back to Asset List</a>
+</form>
+{% endblock %}
