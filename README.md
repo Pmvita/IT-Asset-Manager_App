@@ -67,4 +67,4 @@ This is a Django-based IT Asset Management System that allows users to track IT 
 If you would like to contribute to this project, please fork the repository and submit a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+This project is licensed under the MIT License - see the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.
