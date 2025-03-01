@@ -12,7 +12,7 @@ This is a Django-based IT Asset Management System that allows users to track IT 
 
 ## Screenshots
 
-<div >
+<div style="display: flex; justify-content: center; gap: 10px;">
   <img src="./screenshots/screenshot1.png" alt="Screenshot 1" width="50%">
   <img src="./screenshots/screenshot2.png" alt="Screenshot 2" width="50%">
 </div>
